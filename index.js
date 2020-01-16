@@ -4,8 +4,8 @@ var Request = require("request");
 
 
 
-app.listen(3000, () => {
- console.log("Listening on port 3000");
+app.listen(8080, () => {
+ console.log("Listening on port 8080");
 });
 
 app.get('/v1/users/:param', function (req, res) {
